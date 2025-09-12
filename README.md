@@ -1,24 +1,26 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Computer Network
+<b> Experiment|     <b> 9. Demonstration and Implementation of Cryptographic Algorithms.
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+1. Demonstrating cryptography techniques in ensuring network security.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+2. Understanding difference between Symmetric and Asymmetric cryptographic techniques.
+
+<b>Name of Developer | <b> Prof. RS Anand
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b> IIT Roorkee
+<b> Email id|     <b> anandfee@gmail.com
+<b> Department | Electrical Engineering
 
 ### Contributors List
 
-SrNo | Name | Faculty or Student | Department| Institute | Email id
+SrNo | Name | Faculty | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Prof. RS Anand | Faculty | Electrical Engineering | IIT Roorkee, Roorkee | anandfee@gmail.com
+2 | Prof. Kuldeep | Faculty | Computer Science of Engineering and Technology | Bennett University, Greater Noida  | kuldeep@bennett.edu.in
