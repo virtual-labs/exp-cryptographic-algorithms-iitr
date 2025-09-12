@@ -26,10 +26,7 @@
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
 
 	<style>
-	/*body{
-		background-color:#e3f6f5;
-		border:2px black solid;
-	}	*/
+
 	.box{	  
         width: 1380px;
         height: 700px;
@@ -38,42 +35,41 @@
         background-color: #e3f6f5;
         
     }
-    .reset{
+
+		.reset{
 	    z-index:0;
         position:absolute;
         margin-top: 4%;
-        right: 18%; 
-        background-color: #ffd803;
-        color:#272343;
-		border-radius: 6px;
-		border: 2px solid black;
-        font-size: 18px;
-        display: inline-block;
-		font-family: 'Raleway', sans-serif;
-}
-
-		.instruction {
-		z-index:0;
-        position:absolute;
-        margin-top: 4%;
-        right: 4%; 
+        right: 16%; 
         background-color: #ffd803;
         color:#272343;
         border-radius: 6px;
 		border: 2px solid black;
         font-size: 18px;
         display: inline-block;
-		font-family: 'Raleway', sans-serif;
+}
+
+		.instruction {
+		z-index:0;
+        position:absolute;
+        margin-top: 4%;
+        right: 2%; 
+        background-color: #ffd803;
+        color:#272343;
+        border-radius: 6px;
+		border: 2px solid black;
+        font-size: 18px;
+        display: inline-block;
      
 		}
-	
+
 .dropdown-content {
           display:none;
           position: absolute;
-          margin-left:72%;
+          margin-left:76%;
           margin-top: 8%;
           background-color: white;
-          width: 330px;
+          width: 280px;
           height: auto;
           border:4px;
           border-radius: 4px;
@@ -91,6 +87,7 @@
                 display: none;
             }	
 
+		
 #exps{
 	width:auto;
 	height:30px;
@@ -113,10 +110,8 @@
 
 
 </head>
-
-        <body >
-			<div class="box" id="boxx" style="position: absolute;">
-            <!--Google Tag Manager (noscript)-->
+        <body>
+        	<div class="box" id="boxx"style="position: absolute;">
             
        
             <script type="text/javascript">
@@ -140,7 +135,7 @@
 					<script>
 						function switchExp(){
 						   let selInd = parseInt(document.querySelector('#exps').value);
-							if (selInd == 1){                           
+							if (selInd == 1){                          
 								window.location = 'index.html';
 							}
 							else if (selInd == 2){
@@ -153,98 +148,123 @@
 					  </script>
 					
 					  <label for="exps" style="font-size:20px">Choose a cryptographic algorithm :&nbsp;</label>
-					  <select name="exps" id="exps" onchange="switchExp()">
-						  <option  value="1" selected>Symmetric</option>
-						  <option  value="2" >Assymmetric (basic)</option>
-						  <option  value="3" >RSA</option>
+					  <select name="exps" id="exps" onchange="switchExp()">			
+						  <option  value="1" >Symmetric</option>
+						  <option  value="2" selected>Assymmetric (basic)</option>
+						  <option  value="3">RSA</option>
 					  </select>
 					
 				</div> 
+			
         <button class="reset" onclick="reload()">RESET</button>
-					<button class="instruction" onclick="myFunction()">INSTRUCTIONS</button><br>
+				<button class="instruction" onclick="myFunction()">INSTRUCTIONS</button><br>
 					<div id="myDropdown" class="dropdown-content">
 						<p style="text-align:justify;line-height: 1.5"><b>Follow these steps:</b><br>
-						<b>1.</b> First enter your message (any combination of  characters) and  secret key and press submit.<br>
-						<b>2.</b> Then, in step 2 of the algorithm, enter your secret key and press submit to view your message.<br>
-						<b>3.</b> For performing other algorithms choose from the dropdown visible at the top stating 'Choose a cryptographic algorithm'.<br>
+						<b>1.</b> Click on the <b>Generate Keys</b> button to generate your Random keys.<br>
+						<b>2.</b> Then enter the message (any combination of  characters) you want to encrypt along with the public key in the Encryption Key field and click the <b>Encrypt Message</b> button.<br>
+						<b>3.</b> Then enter your private key in the Decryption Key field and click the <b>Decode Message</b> button to view the decrypted message identical to the  original message.<br>
+						<b>4.</b> Also try entering false private key and you will observe that the message is not deecrypted successfully and is different from your original message.<br>
 						 </p>
 					  </div>
-				  
+				
+
+                   
             </section>
-
 			
-
-				 
+				
 			<script>
-      function reload()
+        function reload()
 					{
 						window.location.reload();
 					}
 				function myFunction() {
-				  console.log("check");
-				 document.getElementById("myDropdown").classList.toggle("show");
-				 }
-				  
-				  </script>
+					console.log("check");
+				   document.getElementById("myDropdown").classList.toggle("show");
+				   }
+				</script>
                 
 			</section>
-			<!-- xor starting -->
+
 		
-			<section align="center" id="basic" class="wrapper style1">
-				<div class="inner">
-					<header class="align-center"><br>
-						<h4>Symmeteric-key cryptography</h4>
-						<h5><u>XOR encryption/decryption</u></h5>		
-					</header><br>
-          <div class="grid">
-            <div>
-					<form name="xor_form1">
-						<h5><u>Step 1: Enter your message and your secret key</u> </h5>
-		
-						<h5>Messages:</h5>		
-						<input id="cell1" type="text" size=5 name="msg">
-						<br>
-						<h5>Your Secret Key:</h5>
-						<input id="cell2" type="text" size=5 name="secret_key">
-						<br>
-						<input  type="button" value="Submit" onClick=xor_generate1()>
-						<br>
-						<br>
-						<h5>Encrypted Message:</h5>
-						<input readonly="readonly" type="text" size=5 name="enc">
-		
-		
-					</form></div>
-		<div>
-					<form name="xor_form2">
-						<h5><u>Step 2: Generate Decrypted Message</u> </h5>
-		
-						<h5>Your secret Key</h5>
-		
-						<input id="cell3" type="text" size=5 name="sec">
-						<br>
-		
-						<input id="cell4" type="button" value="Submit" disabled onClick=xor_generate2()>
-						<br>
-						<br>
-						<h5>Decrypted Message:</h5>
-						<input readonly="readonly" type="text" size=5 name="dec">
 	
-					</form></div>
-        </div>
-		   <!-- xor ending -->
-					
-		
-				</div>
-				
-			</section>
+    <!--------------------- BEGINING ---------------------------->
+<section align="center" id="basic" class="wrapper style1" style="z-index:1;width:1000px">
+<!-- basic starting -->
+<div class="inner">
+<header class="align-center" >
+	<h4>Asymmetric-key cryptography</h4>
+	<h5><u>Basic encryption/decryption</u></h5>
+</header>
+<div class="grid1">
+<div>
+<form name="gen_form">
+	<h5><u>Step 1: Generate Keys</u></h5>
+	<p>Press the button to generate a pair of randomly chosen keys.</p>
+	<!--ul>
+		<li>
+			<p>The <b>public key</b> will be posted in a public key repository where anyone can find it. </p>
+		</li>
+		<li>
+			<p>The <b>private key</b> should be known only to you.</p>
+		</li>
+	</ul-->
+
+	<h5>Public key:</h5>
+	<input readonly="readonly" type="text" size=5 name="public_key">
+	<br>
+	<h5>Private key:</h5>
+	<input readonly="readonly" type="text" size=5 name="private_key">
+	<br>
+	<input type="button" value="Generate keys" onClick=generate()>
+
+</form></div>
+
+<div>
+<form name="myform">
+	<h5><u>Step 2: Encrypt the message </u></h5>
+<p>Now type in a short message and enter public key key from above.
+	Then press the button.</p>
+	<h5>Message:</h5>
+	<input id="cell1" type="text" size=35 value="" name="input">
+	<br>
+	<h5>Encryption key:</h5>
+		<input id="cell2" type="text" size=5 name=encrypt_key>
+		<br>
+		<input id="cell3" type="button" value="Encode message" disabled onClick=encrypt()>
+		<P>
+			<br>
+			
+			<b>The encrypted message:</b>
+			<br>
+
+			<input readonly="readonly" type="text" size=75 value="" name="crypted">
+</form></div>
+
+<div>
+<form name="decrypt_form">
+	<h5><u>Step 3: Decrypt the message</u> </h5>
+	<p>Now enter the decryption key ( i.e. private key) to see the decrypted message
+		and press the "Decode" button.</p>
+	<h5>Decryption key:</h5>
+	<input id="cell4" type="text" size=5 name=decrypt_key>
+	<br>
+	<input id="cell5" type="button" value="Decode message" disabled onClick=decrypt()>
+	<br>
+	<br>
+	<b>The decrypted message:</b>
+	<br>
+
+	<input readonly="readonly" type="text" size=35 value="" name="decrypted">
+</form></div></div></div>
+
+	</section>
 <br>
 
-			<!-- basic ending -->
 
-		</div>
+	<!-----------------------ENDING------------------------------------------>
+</div>
 	<footer class="vlabs-footer">    
-		&#169; 2024 Virtual Labs, IIT Roorkee
+	&#169; 2024 Virtual Labs, IIT Roorkee
 </footer>
 
 
