@@ -1,62 +1,56 @@
-{
-  "content": {
-    "section": "Pre Test",
-    "questions": [
-      {
-        "id": "q1",
+[
+  {
         "question": "An asymmetric-key (or public key) cipher uses?",
-        "options": [
-          "a. 1 Key",
-          "b. 2 Key",
-          "c. 3 Key",
-          "d. 4 Key"
-        ],
-        "answer": "b"
+        "answers": {
+          "a": "1 Key",
+          "b": "2 Key",
+          "c": "3 Key",
+          "d": "4 Key"
+        },
+        "correctAnswer": "b"
       },
       {
-        "id": "q2",
+     
         "question": "We use cryptography term to transforming messages to make them secure and immune to?",
-        "options": [
-          "a. Change",
-          "b. Idle",
-          "c. Attacks",
-          "d. Defend"
-        ],
-        "answer": "c"
+        "answers": {
+          "a": "Change",
+          "b": "Idle",
+          "c": "Attacks",
+          "d": "Defend"
+        },
+        "correctAnswer": "c"
       },
       {
-        "id": "q3",
+       
         "question": "Which of the following is a Symmetric key algorithm?",
-        "options": [
-          "a. XOR",
-          "b. RSA",
-          "c. Diffie-Hellman",
-          "d. None of the above"
-        ],
-        "answer": "a"
+        "answers": {
+          "a": "XOR",
+          "b": "RSA",
+          "c": "Diffie-Hellman",
+          "d": "None of the above"
+        },
+        "correctAnswer": "a"
       },
       {
-        "id": "q4",
+       
         "question": "What is the restriction of RSA algorithm?",
-        "options": [
-          "a. value of P must be less than the value of n",
-          "b. value of P must be greater than the value of n",
-          "c. value of P must be equal to the value of n",
-          "d. Both a and c"
-        ],
-        "answer": "a"
+        "answers": {
+          "a": "value of P must be less than the value of n",
+          "b": "value of P must be greater than the value of n",
+          "c": "value of P must be equal to the value of n",
+          "d": "Both a and c"
+        },
+        "correctAnswer": "a"
       },
       {
-        "id": "q5",
+       
         "question": "The original message, before being transformed, is called?",
-        "options": [
-          "a. Encrypted Text",
-          "b. Decrypted Text",
-          "c. Cipher Text",
-          "d. Plain Text"
-        ],
-        "answer": "d"
+        "answers": {
+          "a": "Encrypted Text",
+          "b": "Decrypted Text",
+          "c": "Cipher Text",
+          "d": "Plain Text"
+        },
+        "correctAnswer": "d"
       }
     ]
-  }
-}
