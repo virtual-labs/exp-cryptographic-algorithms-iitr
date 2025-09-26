@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--End Google Tag Manager-->
+	<!-- <meta charset="utf-8" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Simulation CSS file -->
+	<link rel="stylesheet" href="css/main.css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Welcome to Virtual Labs - A MHRD Govt of india Initiative">
+	<meta name="author" content="Virtual Labs - A MHRD Govt of india Initiative">
+
+	<title>Welcome to Virtual Labs - A MHRD Govt of india Initiative</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/vlabs-style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+		rel="stylesheet">
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+	</link>
+
+	<style>
+		.box {
+			width: 1380px;
+			height: 1040px;
+			z-index: -2;
+			border: 3px solid black;
+			background-color: #e3f6f5;
+
+		}
+
+		.reset {
+			z-index: 0;
+			position: absolute;
+			margin-top: 4%;
+			right: 18%;
+			background-color: #ffd803;
+			color: #272343;
+			border-radius: 6px;
+			border: 2px solid black;
+			font-size: 18px;
+			display: inline-block;
+		}
+
+		.instruction {
+			z-index: 0;
+			position: absolute;
+			margin-top: 4%;
+			right: 4%;
+			background-color: #ffd803;
+			color: #272343;
+			border-radius: 6px;
+			border: 2px solid black;
+			font-size: 18px;
+			display: inline-block;
+
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			margin-left: 72%;
+			margin-top: 8%;
+			background-color: white;
+			width: 330px;
+			height: auto;
+			border: 4px;
+			border-radius: 4px;
+			padding: 10px;
+			font-family: sans-serif;
+			font-size: 15px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 1, 1);
+			z-index: 999;
+			overflow: auto;
+		}
+
+		.dropdown-content p:hover {
+			background-color: #e3f6f5
+		}
+
+		.show {
+			display: block;
+		}
+
+		.block {
+			display: none;
+		}
+
+		#exps {
+			width: auto;
+			height: 30px;
+			background-color: white;
+			color: black;
+			border: 1px black solid;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.position-absolute {
+
+			position: absolute !important;
+			backdrop-filter: blur(6px);
+
+		}
+
+		.swal2-popup {
+			font-size: 1.4rem !important;
+			font-family: Georgia, serif;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<div class="box" id="boxx" style="position: absolute;">
+
+		<!--Google Tag Manager (noscript)-->
+
+
+		<script type="text/javascript">
+			// Popup window code
+			function newPopup(url) {
+				popupWindow = window.open(url, 'popUpWindow', 'height=500,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+			}
+			function newPopup1(url) {
+				popupWindow1 = window.open(url, 'popUpWindow1', 'height=750,width=1300,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+			}
+		</script>
+
+
+
+
+
+		<section class="content">
+			<br>
+			<section class="content-header">
+				<div id="con">
+					<script>
+						function switchExp() {
+							let selInd = parseInt(document.querySelector('#exps').value);
+							if (selInd == 1) {
+								window.location = 'index.html';
+							}
+							else if (selInd == 2) {
+								window.location = 'assymetric.html';
+							}
+							else if (selInd == 3) {
+								window.location = 'rsa.html';
+							}
+						}
+					</script>
+
+					<label for="exps" style="font-size:20px">Choose a cryptographic algorithm :&nbsp;</label>
+					<select name="exps" id="exps" onchange="switchExp()">
+						<option value="1">Symmetric</option>
+						<option value="2">Assymmetric (basic)</option>
+						<option value="3" selected>RSA</option>
+					</select>
+					<!--h2 id="con-head" align = "center" style="font-family: 'font-family: 'Raleway', sans-serif;">Cryptographic Algorithms</h2-->
+				</div>
+				<button class="reset" onclick="reload()">RESET</button>
+				<button class="instruction" onclick="myFunction()">INSTRUCTIONS</button><br>
+				<div id="myDropdown" class="dropdown-content">
+					<p style="text-align:justify;line-height: 1.5"><b>Follow these steps:</b><br>
+						<b>1.</b> Enter the prime numbers in the fields P and Q, then click on the <b>Submit Primes</b>
+						button.<br>
+						<b>2.</b> Then click on the button <b>Calculate N and PHI(N)</b> to calculate values of N and PHI(N).<br>
+						<b>3.</b> Then click on the <b>Generate E </b>button to generate the appropriate value.<br>
+						<b>4.</b> Generate keys by clicking the <b>Generate Keys</b> button.<br>
+						<b>5.</b> Now enter the message ( numeric in the range 0 - 520 ) you want to encrypt.<br>
+						<b>6.</b> Now click the encrypt/decrypt button to generate the encryption along with the
+						decrypted message.<br>
+						<b>7.</b> You will observe that the orignal and decrypted message matches, hence validating the
+						algorithm.<br>
+						<b>8.</b> For performing other algorithm choose from the dropdown visible at the top stating
+						'Choose a cryptographic algorithm'.<br>
+					</p>
+				</div>
+
+
+
+			</section>
+
+
+			<script>
+				function reload() {
+					window.location.reload();
+				}
+				function myFunction() {
+					console.log("check");
+					document.getElementById("myDropdown").classList.toggle("show");
+				}
+			</script>
+
+		</section>
+
+
+
+		<!--------------------- RSA BEGINING ---------------------------->
+		<section align="center" id="basic" class="wrapper style1" style="z-index:1">
+
+
+
+
+			<div class="inner">
+				<header class="align-center">
+					<br>
+					<h4><u>RSA ALGORITHM</u></h4>
+				</header>
+				<div class="grid">
+
+					<div>
+						<form name="rsa_form1">
+
+							<h5><u>Step 1: Enter Prime Numbers P and Q</u></h5>
+
+							<p>Enter two prime numbers in the range 2 - 400.</p>
+							<h5>P: &nbsp;(Large Prime number chosen randomly)</h5>
+
+							<input type="number" min="2" max="400" size=5 name="p_primenumber">
+							<br>
+							<h5>Q: &nbsp;(Large Prime number chosen randomly)</h5>
+							<input type="number" min="2" max="400" size=5 name="q_primenumber">
+							<br>
+							<input type="button" value="Submit Primes" onClick="rsa1_validate()">
+							<br><br>
+						</form>
+
+						<form name="rsa_form2">
+							<h5><u>Step 2: Generate N, PHI and E</u></h5>
+
+							<p>N and PHI(N) are calculated from P and Q</p>
+
+							<div style="float:left;">
+								<h5>N: &nbsp;(Part of Public and Private key)</h5>
+							</div>
+							<div style="float:right;">P × Q</div>
+							<input size="5" name="n_p_multiply_q" style="clear:both" type="text" readonly>
+							<br>
+
+							<div style="float:left;">
+								<h5>PHI(N): &nbsp;(Euler’s Totient Function)</h5>
+							</div>
+							<div style="float:right;">(P-1) × (Q-1)</div>
+							<input size="5" name="phi" style="clear:both" type="text" readonly>
+							<br>
+
+							<!-- 🔹 Button to calculate -->
+							<input id="calcNPhi" type="button" value="Calculate N and PHI(N)"disabled onClick="calculateNPhi()">
+							<br><br>
+
+							<h5>E: &nbsp;(Public Exponent)</h5>
+							<input readonly="readonly" type="text" size="5" name="e_random">
+							<br>
+							<input id="cell6" type="button" value="Generate E" disabled onClick="rsa2_generate()">
+							<br><br>
+						</form>
+					</div>
+
+					<div>
+
+						<form name="rsa_form3">
+							<h5><u>Step 3: Generate Public and Private Key</u></h5>
+
+							<p>Press the button to generate the values</p>
+
+							<div style="float:left;">
+								<h5>D: &nbsp;(Private Exponent)</h5>
+							</div>
+							<div style="float:right;">D x E = 1 mod N</div>
+							<input readonly="readonly" type="text" size=5 name="d_mod" style="clear:both">
+							<br>
+							<div style="float:left;">
+								<h5>Public Key (Used for encryption):</h5>
+							</div>
+							<div style="float:right;">(N,E)</div>
+							<input readonly="readonly" type="text" size=5 name="publickey">
+							<br>
+							<div style="float:left;">
+								<h5>Private Key (Used for decryption):</h5>
+							</div>
+							<div style="float:right;">(N,D)</div>
+							<input readonly="readonly" type="text" size=5 name="privatekey">
+							<br>
+							<input id="cell2" type="button" value="Generate Keys" disabled onClick=rsa3_generate()>
+
+						</form>
+
+
+
+						<form name="rsa_form4">
+
+							<h5><u>Step 4: Encryption/Decryption</u></h5>
+
+							<p>Press the button to generate the values</p>
+							<div style="float:left;">
+								<h5>Message (0 - 520):</h5>
+							</div>
+							<div style="float:right;">Original Message</div>
+							<input type="number" min="1" max="520" size=5 name="message">
+							<br>
+							<div style="float:left;">
+								<h5>Encrypt:</h5>
+							</div>
+							<div style="float:right;">Encrypted Message</div>
+							<input readonly="readonly" type="text" size=5 name="encrypt" style="clear:both">
+							<br>
+							<div style="float:left;">
+								<h5>Decrypt:</h5>
+							</div>
+							<div style="float:right;">Decrypted Message</div>
+							<input readonly="readonly" type="text" size=5 name="decrypt">
+							<br>
+							<input id="cell3" type="button" value="Encrypt / Decrypt" disabled onClick=rsa4_generate()>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br>
+
+
+		<!-----------------------RSA ENDING------------------------------------------>
+	</div>
+	<footer class="vlabs-footer" style="top:1040px">
+		&#169; 2024 Virtual Labs, IIT Roorkee
+	</footer>
+
+
+	<script src="js/simulation_basic.js"></script>
+
+	<script src="js/simulation_rsa.js"></script>
+
+
+	<script src="js/simulation_xor.js"></script>
+
+</body>
+
+</html>

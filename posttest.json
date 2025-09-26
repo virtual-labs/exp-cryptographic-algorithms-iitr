@@ -1,0 +1,56 @@
+[
+  {
+        "question": "Cryptography is the study and practice of techniques for secure communication in the presence of third parties called?",
+        "answers": {
+          "a": "Adversaries",
+          "b": "Security",
+          "c": "RSA",
+          "d": "XOR"
+        },
+        "correctAnswer": "a"
+      },
+      {
+      
+        "question": "What is a cipher?",
+        "answers": {
+          "a": "Plain text",
+          "b": "Asymmetric key algorithm",
+          "c": "A secret or disguised way of writing",
+          "d": "None of the above"
+        },
+        "correctAnswer": "c"
+      },
+      {
+        
+        "question": "What is the formula to decrypt the message in RSA?",
+        "answers": {
+          "a": "P = n^d ( mod n )",
+          "b": "P = c^d ( mod c )",
+          "c": "P = C^d ( mod d )",
+          "d": "P = C^d ( mod n )"
+        },
+        "correctAnswer": "d"
+      },
+      {
+        
+        "question": "A combination of an encryption algorithm and a decryption algorithm is called a _________.",
+        "answers": {
+          "a": "Cipher",
+          "b": "Secret",
+          "c": "Key",
+          "d": "None of the above"
+        },
+        "correctAnswer": "a"
+      },
+      {
+        
+        "question": "The acronym DES stands for?",
+        "answers": {
+          "a": "Digital Evaluation System",
+          "b": "Digital Encryption System",
+          "c": "Data Encryption Standard",
+          "d": "Double Encryption Standard"
+        },
+        "correctAnswer": "c"
+      }
+]

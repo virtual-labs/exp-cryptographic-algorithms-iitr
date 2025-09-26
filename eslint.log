@@ -1,0 +1,500 @@
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/app.min.js
+  2:31    warning  '$' is not defined                no-undef
+  2:104   warning  '$' is not defined                no-undef
+  2:190   warning  '$' is not defined                no-undef
+  2:222   warning  '$' is not defined                no-undef
+  2:256   warning  '$' is not defined                no-undef
+  2:277   warning  '$' is not defined                no-undef
+  2:303   warning  '$' is not defined                no-undef
+  2:331   warning  '$' is not defined                no-undef
+  2:385   warning  '$' is not defined                no-undef
+  2:435   warning  '$' is not defined                no-undef
+  2:500   warning  '$' is not defined                no-undef
+  2:566   warning  '$' is not defined                no-undef
+  2:568   warning  '$' is not defined                no-undef
+  2:656   warning  '$' is not defined                no-undef
+  2:751   warning  '$' is not defined                no-undef
+  2:800   warning  '$' is not defined                no-undef
+  2:918   warning  '$' is not defined                no-undef
+  2:976   warning  '$' is not defined                no-undef
+  2:994   warning  '$' is not defined                no-undef
+  2:1048  warning  '$' is not defined                no-undef
+  2:1081  warning  '$' is not defined                no-undef
+  2:1100  warning  '$' is not defined                no-undef
+  2:1197  warning  '$' is not defined                no-undef
+  2:1214  warning  '$' is not defined                no-undef
+  2:1271  warning  '$' is not defined                no-undef
+  2:1319  warning  '$' is not defined                no-undef
+  2:1350  warning  '$' is not defined                no-undef
+  2:1406  warning  '$' is not defined                no-undef
+  2:1431  warning  '$' is not defined                no-undef
+  2:1470  warning  '$' is not defined                no-undef
+  2:1541  warning  '$' is not defined                no-undef
+  2:1610  warning  '$' is not defined                no-undef
+  2:1645  warning  '$' is not defined                no-undef
+  2:1745  warning  '$' is not defined                no-undef
+  2:1811  warning  '$' is not defined                no-undef
+  2:1850  warning  '$' is not defined                no-undef
+  2:1877  warning  '$' is not defined                no-undef
+  2:1913  warning  '$' is not defined                no-undef
+  2:1954  warning  '$' is not defined                no-undef
+  2:1995  warning  '$' is not defined                no-undef
+  2:2024  warning  '$' is not defined                no-undef
+  2:2121  warning  '$' is not defined                no-undef
+  2:2157  warning  '$' is not defined                no-undef
+  2:2193  warning  '$' is not defined                no-undef
+  2:2229  warning  '$' is not defined                no-undef
+  2:2269  warning  '$' is not defined                no-undef
+  2:2313  warning  '$' is not defined                no-undef
+  2:2349  warning  '$' is not defined                no-undef
+  2:2398  warning  '$' is not defined                no-undef
+  2:2453  warning  '$' is not defined                no-undef
+  2:2554  warning  '$' is not defined                no-undef
+  2:2603  warning  '$' is not defined                no-undef
+  2:2685  warning  '$' is not defined                no-undef
+  2:2726  warning  '$' is not defined                no-undef
+  2:2760  warning  '$' is not defined                no-undef
+  2:2834  warning  '$' is not defined                no-undef
+  2:2899  warning  '$' is not defined                no-undef
+  2:3365  warning  '$' is not defined                no-undef
+  2:3425  warning  '$' is not defined                no-undef
+  2:3468  warning  '$' is not defined                no-undef
+  2:3484  warning  '$' is not defined                no-undef
+  2:3587  warning  '$' is not defined                no-undef
+  2:3675  warning  '$' is not defined                no-undef
+  2:3710  warning  '$' is not defined                no-undef
+  2:3756  warning  '$' is not defined                no-undef
+  2:3889  warning  '$' is not defined                no-undef
+  2:3993  warning  '$' is not defined                no-undef
+  2:4071  warning  '$' is not defined                no-undef
+  2:4148  warning  '$' is not defined                no-undef
+  2:4197  warning  '$' is not defined                no-undef
+  2:4443  warning  '$' is not defined                no-undef
+  2:4509  warning  '$' is not defined                no-undef
+  2:4541  warning  '$' is not defined                no-undef
+  2:4602  warning  '$' is not defined                no-undef
+  2:4668  warning  '$' is not defined                no-undef
+  2:4750  warning  '$' is not defined                no-undef
+  2:4829  warning  '$' is not defined                no-undef
+  2:4840  warning  '$' is not defined                no-undef
+  2:4915  warning  '$' is not defined                no-undef
+  2:5548  warning  '$' is not defined                no-undef
+  2:5562  warning  '$' is not defined                no-undef
+  2:6624  warning  '$' is not defined                no-undef
+  2:6650  warning  '$' is not defined                no-undef
+  2:6728  warning  '$' is not defined                no-undef
+  2:6740  warning  '$' is not defined                no-undef
+  2:6759  warning  'AdminLTEOptions' is not defined  no-undef
+  2:6782  warning  '$' is not defined                no-undef
+  2:6809  warning  '$' is not defined                no-undef
+  2:6838  warning  '$' is not defined                no-undef
+  2:6890  warning  '$' is not defined                no-undef
+  2:6971  warning  '$' is not defined                no-undef
+  2:6988  warning  '$' is not defined                no-undef
+  2:7136  warning  '$' is not defined                no-undef
+  2:7210  warning  '$' is not defined                no-undef
+  2:7279  warning  '$' is not defined                no-undef
+  2:7361  warning  'FastClick' is not defined        no-undef
+  2:7414  warning  '$' is not defined                no-undef
+  2:7489  warning  '$' is not defined                no-undef
+  2:7574  warning  '$' is not defined                no-undef
+  2:7638  warning  '$' is not defined                no-undef
+  2:7646  warning  '$' is not defined                no-undef
+  2:7734  warning  '$' is not defined                no-undef
+  2:8427  warning  'jQuery' is not defined           no-undef
+  2:8750  warning  'jQuery' is not defined           no-undef
+  2:9366  warning  'jQuery' is not defined           no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/boot.js
+    8:10  warning  'myMove' is defined but never used  no-unused-vars
+   46:5   warning  'posx' is not defined               no-undef
+   47:5   warning  'posy' is not defined               no-undef
+   52:13  warning  'posy' is not defined               no-undef
+   84:17  warning  'posx' is not defined               no-undef
+   85:17  warning  'posy' is not defined               no-undef
+   87:33  warning  'posy' is not defined               no-undef
+   88:40  warning  'posx' is not defined               no-undef
+   98:5   warning  'posx' is not defined               no-undef
+   99:5   warning  'posy' is not defined               no-undef
+  104:13  warning  'posy' is not defined               no-undef
+  136:17  warning  'posy' is not defined               no-undef
+  138:33  warning  'posy' is not defined               no-undef
+  139:34  warning  'posx' is not defined               no-undef
+  149:5   warning  'posx' is not defined               no-undef
+  150:5   warning  'posy' is not defined               no-undef
+  155:13  warning  'posy' is not defined               no-undef
+  186:17  warning  'posx' is not defined               no-undef
+  187:17  warning  'posy' is not defined               no-undef
+  189:33  warning  'posy' is not defined               no-undef
+  190:39  warning  'posx' is not defined               no-undef
+  200:5   warning  'posx' is not defined               no-undef
+  201:5   warning  'posy' is not defined               no-undef
+  206:13  warning  'posy' is not defined               no-undef
+  237:17  warning  'posx' is not defined               no-undef
+  238:17  warning  'posy' is not defined               no-undef
+  240:33  warning  'posy' is not defined               no-undef
+  241:39  warning  'posx' is not defined               no-undef
+  250:5   warning  'posx' is not defined               no-undef
+  251:5   warning  'posy' is not defined               no-undef
+  256:13  warning  'posy' is not defined               no-undef
+  288:17  warning  'posy' is not defined               no-undef
+  290:33  warning  'posy' is not defined               no-undef
+  291:34  warning  'posx' is not defined               no-undef
+  300:5   warning  'posx' is not defined               no-undef
+  301:5   warning  'posy' is not defined               no-undef
+  306:13  warning  'posy' is not defined               no-undef
+  337:17  warning  'posx' is not defined               no-undef
+  338:17  warning  'posy' is not defined               no-undef
+  340:33  warning  'posy' is not defined               no-undef
+  341:40  warning  'posx' is not defined               no-undef
+  351:5   warning  'posx1' is not defined              no-undef
+  352:5   warning  'posy1' is not defined              no-undef
+  356:13  warning  'posy1' is not defined              no-undef
+  363:17  warning  'posx1' is not defined              no-undef
+  364:17  warning  'posy1' is not defined              no-undef
+  366:33  warning  'posy1' is not defined              no-undef
+  367:38  warning  'posx1' is not defined              no-undef
+  377:5   warning  'posx9' is not defined              no-undef
+  378:5   warning  'posy9' is not defined              no-undef
+  382:13  warning  'posy9' is not defined              no-undef
+  389:17  warning  'posx9' is not defined              no-undef
+  390:17  warning  'posy9' is not defined              no-undef
+  392:33  warning  'posy9' is not defined              no-undef
+  393:39  warning  'posx9' is not defined              no-undef
+  403:5   warning  'posx2' is not defined              no-undef
+  404:5   warning  'posy2' is not defined              no-undef
+  409:13  warning  'posy2' is not defined              no-undef
+  410:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  417:17  warning  'posy2' is not defined              no-undef
+  419:33  warning  'posy2' is not defined              no-undef
+  420:34  warning  'posx2' is not defined              no-undef
+  431:5   warning  'posx3' is not defined              no-undef
+  432:5   warning  'posy3' is not defined              no-undef
+  437:13  warning  'posy3' is not defined              no-undef
+  438:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  445:17  warning  'posy3' is not defined              no-undef
+  447:33  warning  'posy3' is not defined              no-undef
+  448:34  warning  'posx3' is not defined              no-undef
+  460:5   warning  'posx4' is not defined              no-undef
+  461:5   warning  'posy4' is not defined              no-undef
+  466:13  warning  'posy4' is not defined              no-undef
+  467:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  473:17  warning  'posx4' is not defined              no-undef
+  473:24  warning  'posx4' is not defined              no-undef
+  474:17  warning  'posy4' is not defined              no-undef
+  476:33  warning  'posy4' is not defined              no-undef
+  477:34  warning  'posx4' is not defined              no-undef
+  489:5   warning  'posx5' is not defined              no-undef
+  490:5   warning  'posy5' is not defined              no-undef
+  495:13  warning  'posy5' is not defined              no-undef
+  496:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  502:17  warning  'posx5' is not defined              no-undef
+  503:17  warning  'posy5' is not defined              no-undef
+  505:33  warning  'posy5' is not defined              no-undef
+  506:39  warning  'posx5' is not defined              no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/bootstrap.bundle.js
+     7:74  warning  'exports' is not defined                                                   no-undef
+     7:83  warning  'require' is not defined                                                   no-undef
+     8:35  warning  'define' is not defined                                                    no-undef
+     8:48  warning  'define' is not defined                                                    no-undef
+    12:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2041:17  warning  Empty block statement                                                      no-empty
+  3273:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+  3333:39  warning  Unnecessary escape character: \-                                           no-useless-escape
+  4189:60  warning  'global' is not defined                                                    no-undef
+  5421:35  warning  'len' is defined but never used                                            no-unused-vars
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/bootstrap.bundle.min.js
+  6:71     warning  'exports' is not defined                                                   no-undef
+  6:79     warning  'require' is not defined                                                   no-undef
+  6:125    warning  'define' is not defined                                                    no-undef
+  6:136    warning  'define' is not defined                                                    no-undef
+  6:1140   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  6:23586  warning  Empty block statement                                                      no-empty
+  6:30176  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:30796  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:40702  warning  'global' is not defined                                                    no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/bootstrap.js
+     7:74   warning  'exports' is not defined                                                   no-undef
+     7:83   warning  'require' is not defined                                                   no-undef
+     7:102  warning  'require' is not defined                                                   no-undef
+     8:35   warning  'define' is not defined                                                    no-undef
+     8:48   warning  'define' is not defined                                                    no-undef
+    12:14   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    13:29   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2808:35   warning  'len' is defined but never used                                            no-unused-vars
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/bootstrap.min.js
+  6:319    warning  'jQuery' is not defined                 no-undef
+  6:1075   warning  'jQuery' is not defined                 no-undef
+  6:2009   warning  'jQuery' is not defined                 no-undef
+  6:3873   warning  'jQuery' is not defined                 no-undef
+  6:7916   warning  'jQuery' is not defined                 no-undef
+  6:11284  warning  'jQuery' is not defined                 no-undef
+  6:13647  warning  'jQuery' is not defined                 no-undef
+  6:19628  warning  'jQuery' is not defined                 no-undef
+  6:27173  warning  'a' is assigned a value but never used  no-unused-vars
+  6:28496  warning  'jQuery' is not defined                 no-undef
+  6:30085  warning  'jQuery' is not defined                 no-undef
+  7:499    warning  'jQuery' is not defined                 no-undef
+  7:2319   warning  'jQuery' is not defined                 no-undef
+  7:4732   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/dragdrop.js
+  1:10  warning  'allowDrop' is defined but never used  no-unused-vars
+  5:12  warning  'drag' is defined but never used       no-unused-vars
+  9:12  warning  'drop' is defined but never used       no-unused-vars
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/fastclick.js
+    1:1   warning  Unnecessary semicolon                                     no-extra-semi
+   13:19  warning  'Event' is already defined as a built-in global variable  no-redeclare
+   13:26  warning  'Node' is already defined as a built-in global variable   no-redeclare
+  746:69  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  797:71  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  835:46  warning  'module' is not defined                                   no-undef
+  836:3   warning  'module' is not defined                                   no-undef
+  837:3   warning  'module' is not defined                                   no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/jquery-2.2.3.min.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6147   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6403   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6834   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7093   warning  Empty block statement                                                      no-empty
+  2:7662   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9532   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11134  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11710  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11748  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12166  warning  Empty block statement                                                      no-empty
+  2:12729  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13041  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14869  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15140  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15340  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15716  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16421  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18805  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18896  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18956  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20258  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20872  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20983  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23243  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23245  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:10     warning  Empty block statement                                                      no-empty
+  3:4145   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4284   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4900   warning  Empty block statement                                                      no-empty
+  3:13968  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:15550  warning  Empty block statement                                                      no-empty
+  3:17096  warning  Move function declaration to function body root                            no-inner-declarations
+  3:24430  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:26855  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:31319  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1015   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1095   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1438   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1518   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1939   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2216   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:7005   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9508   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10285  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:11408  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14991  warning  Empty block statement                                                      no-empty
+  4:21305  warning  'define' is not defined                                                    no-undef
+  4:21317  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/jquery.slimscroll.min.js
+   7:41   warning  'm' is already defined         no-redeclare
+   7:286  warning  'c' is already defined         no-redeclare
+   8:51   warning  'h' is already defined         no-redeclare
+   8:251  warning  't' is not defined             no-undef
+   8:278  warning  'pageY' is not defined         no-undef
+   8:334  warning  'currTop' is not defined       no-undef
+   8:342  warning  't' is not defined             no-undef
+   8:352  warning  'pageY' is not defined         no-undef
+   8:370  warning  'currTop' is not defined       no-undef
+   8:443  warning  'a' is defined but never used  no-unused-vars
+   9:237  warning  'b' is defined but never used  no-unused-vars
+  10:378  warning  'jQuery' is not defined        no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/simulation_basic.js
+    1:1   warning  'A' is not defined                    no-undef
+    2:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    2:7   warning  'Chars0' is not defined               no-undef
+    3:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    3:7   warning  'Chars1' is not defined               no-undef
+    4:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    4:7   warning  'Chars2' is not defined               no-undef
+    4:45  warning  Unnecessary escape character: \]      no-useless-escape
+    5:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    5:7   warning  'Chars3' is not defined               no-undef
+    6:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    6:7   warning  'Chars4' is not defined               no-undef
+    7:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    7:7   warning  'Chars5' is not defined               no-undef
+    8:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    8:7   warning  'Chars6' is not defined               no-undef
+    9:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+    9:7   warning  'Chars7' is not defined               no-undef
+   10:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   10:7   warning  'all_Chars' is not defined            no-undef
+   10:19  warning  'Chars0' is not defined               no-undef
+   10:26  warning  'Chars1' is not defined               no-undef
+   10:33  warning  'Chars2' is not defined               no-undef
+   10:40  warning  'Chars3' is not defined               no-undef
+   10:47  warning  'Chars4' is not defined               no-undef
+   10:54  warning  'Chars5' is not defined               no-undef
+   10:61  warning  'Chars6' is not defined               no-undef
+   10:68  warning  'Chars7' is not defined               no-undef
+   11:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   12:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   12:15  warning  'clear' is defined but never used     no-unused-vars
+   13:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   14:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   15:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   16:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   17:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   18:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   19:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   20:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   20:15  warning  'generate' is defined but never used  no-unused-vars
+   21:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   21:11  warning  'today' is not defined                no-undef
+   22:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   22:11  warning  'key1' is not defined                 no-undef
+   22:18  warning  'today' is not defined                no-undef
+   23:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   23:48  warning  'key1' is not defined                 no-undef
+   24:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   24:54  warning  'key1' is not defined                 no-undef
+   26:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   27:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   29:11  warning  'encrypt' is defined but never used   no-unused-vars
+   34:3   warning  'Swal' is not defined                 no-undef
+   36:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   37:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   39:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   40:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   43:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+   48:3   warning  'Swal' is not defined                 no-undef
+   64:3   warning  'Swal' is not defined                 no-undef
+   80:3   warning  'Swal' is not defined                 no-undef
+   95:3   warning  'Swal' is not defined                 no-undef
+  109:3   warning  'len' is not defined                  no-undef
+  110:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  111:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  111:7   warning  'key' is not defined                  no-undef
+  112:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  113:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  114:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  114:12  warning  'n' is not defined                    no-undef
+  114:16  warning  'n' is not defined                    no-undef
+  114:18  warning  'len' is not defined                  no-undef
+  114:22  warning  'n' is not defined                    no-undef
+  115:5   warning  'A' is not defined                    no-undef
+  115:7   warning  'n' is not defined                    no-undef
+  115:32  warning  'n' is not defined                    no-undef
+  116:11  warning  'j' is not defined                    no-undef
+  116:15  warning  'j' is not defined                    no-undef
+  116:17  warning  'key' is not defined                  no-undef
+  116:21  warning  'j' is not defined                    no-undef
+  117:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  117:8   warning  'A' is not defined                    no-undef
+  117:10  warning  'n' is not defined                    no-undef
+  120:38  warning  'A' is not defined                    no-undef
+  120:40  warning  'n' is not defined                    no-undef
+  122:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  123:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  123:8   warning  'Swal' is not defined                 no-undef
+  125:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  126:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  127:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  129:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  130:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  137:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  139:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  141:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  143:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  143:21  warning  'decrypt' is defined but never used   no-unused-vars
+  147:5   warning  'Swal' is not defined                 no-undef
+  149:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  150:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  152:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  153:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  163:5   warning  'Swal' is not defined                 no-undef
+  165:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  166:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  167:4   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  169:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  170:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  179:5   warning  'key' is not defined                  no-undef
+  180:5   warning  'len' is not defined                  no-undef
+  182:11  warning  'i' is not defined                    no-undef
+  182:15  warning  'i' is not defined                    no-undef
+  182:17  warning  'len' is not defined                  no-undef
+  182:21  warning  'i' is not defined                    no-undef
+  183:6   warning  'decrypt_value' is not defined        no-undef
+  183:23  warning  'A' is not defined                    no-undef
+  183:25  warning  'i' is not defined                    no-undef
+  183:28  warning  'key' is not defined                  no-undef
+  184:47  warning  'all_Chars' is not defined            no-undef
+  184:64  warning  'decrypt_value' is not defined        no-undef
+  191:6   warning  'Swal' is not defined                 no-undef
+  193:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  194:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  196:6   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  197:6   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  205:6   warning  'Swal' is not defined                 no-undef
+  207:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  208:5   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  210:6   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  211:6   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  219:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  220:2   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/simulation_rsa.js
+    3:10  warning  'get_prime' is defined but never used      no-unused-vars
+   21:10  warning  'rsa1_validate' is defined but never used  no-unused-vars
+   26:9   warning  'Swal' is not defined                      no-undef
+   39:9   warning  'Swal' is not defined                      no-undef
+   52:9   warning  'Swal' is not defined                      no-undef
+   65:9   warning  'Swal' is not defined                      no-undef
+   78:5   warning  'Swal' is not defined                      no-undef
+   93:10  warning  'calculateNPhi' is defined but never used  no-unused-vars
+   98:9   warning  'Swal' is not defined                      no-undef
+  113:5   warning  'Swal' is not defined                      no-undef
+  128:12  warning  Unexpected constant condition              no-constant-condition
+  141:10  warning  'sub' is defined but never used            no-unused-vars
+  148:9   warning  'Swal' is not defined                      no-undef
+  164:9   warning  'Swal' is not defined                      no-undef
+  178:9   warning  'Swal' is not defined                      no-undef
+  192:9   warning  'Swal' is not defined                      no-undef
+  206:9   warning  'Swal' is not defined                      no-undef
+  221:9   warning  'Swal' is not defined                      no-undef
+  236:9   warning  'Swal' is not defined                      no-undef
+  254:10  warning  'rsa2_generate' is defined but never used  no-unused-vars
+  271:10  warning  'rsa3_generate' is defined but never used  no-unused-vars
+  284:16  warning  'rsa4_generate' is defined but never used  no-unused-vars
+  286:16  warning  'Swal' is not defined                      no-undef
+  311:9   warning  'Swal' is not defined                      no-undef
+
+/home/runner/work/exp-cryptographic-algorithms-iitr/exp-cryptographic-algorithms-iitr/experiment/simulation/js/simulation_xor.js
+   29:10  warning  'xor_generate1' is defined but never used  no-unused-vars
+   34:9   warning  'Swal' is not defined                      no-undef
+   46:9   warning  'Swal' is not defined                      no-undef
+   60:9   warning  'Swal' is not defined                      no-undef
+   88:16  warning  'xor_generate2' is defined but never used  no-unused-vars
+   92:9   warning  'Swal' is not defined                      no-undef
+  113:13  warning  'Swal' is not defined                      no-undef
+  127:13  warning  'Swal' is not defined                      no-undef
+
+✖ 470 problems (0 errors, 470 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
