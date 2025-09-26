@@ -8,19 +8,19 @@ Cryptography is the study and practice of techniques for secure communication in
 
    The original message, before being transformed, is called plaintext. After the message is transformed, it is called ciphertext. An encryption algorithm transforms the plaintext into ciphertext; a decryption algorithm transforms the ciphertext back into plaintext.
 
-   ![Fig. 1: Plain Text And Cipher Text](images/plain_text_and_cipher_text.png)
+   <center>![Fig. 1: Plain Text And Cipher Text](images/plain_text_and_cipher_text.png)</center>
 
 2. **Cipher**
 
    In cryptography, a cipher (or cypher) is an algorithm for performing encryption or decryption—a series of well-defined steps that can be followed as a procedure.
 
-   ![Fig. 2: Cipher](images/cipher.png)
+   <center> ![Fig. 2: Cipher](images/cipher.png)</center>
 
 3. **Key**
 
    A key is a number (or a set of numbers) that the cipher, as an algorithm, operates on.
 
-   ![Fig. 3: Key](images/key.png)
+  <center> ![Fig. 3: Key](images/key.png)</center>
 
 #### Categories of Cryptography
 
@@ -33,7 +33,7 @@ Cryptography is the study and practice of techniques for secure communication in
    - Data Encryption Standard (DES)
    - Advanced Encryption Standard (AES)
 
-   ![Fig. 4: Symmetric-key](images/symm.png)
+   <center>![Fig. 4: Symmetric-key](images/symm.png)</center>
 
    1. **XOR**
 
@@ -71,7 +71,7 @@ Cryptography is the study and practice of techniques for secure communication in
    - RSA
    - Diffie-Hellman
 
-   ![Fig. 5: Asymmetric-key](images/asymm.png)
+   <center>![Fig. 5: Asymmetric-key](images/asymm.png)</center>
 
    #### RSA ALGORITHM
 
@@ -103,7 +103,7 @@ Cryptography is the study and practice of techniques for secure communication in
 
    For RSA to work, the value of P must be less than the value of n. If P is a large number, the plaintext needs to be divided into blocks to make P less than n.
 
-   ![Fig. 6: RSA Algorithm](images/rsa.png)
+   <center>![Fig. 6: RSA Algorithm](images/rsa.png)</center>
 
    #### Advantages of RSA
 
