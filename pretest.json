@@ -1,0 +1,56 @@
+[
+  {
+        "question": "An asymmetric-key (or public key) cipher uses?",
+        "answers": {
+          "a": "1 Key",
+          "b": "2 Key",
+          "c": "3 Key",
+          "d": "4 Key"
+        },
+        "correctAnswer": "b"
+      },
+      {
+     
+        "question": "We use cryptography term to transforming messages to make them secure and immune to?",
+        "answers": {
+          "a": "Change",
+          "b": "Idle",
+          "c": "Attacks",
+          "d": "Defend"
+        },
+        "correctAnswer": "c"
+      },
+      {
+       
+        "question": "Which of the following is a Symmetric key algorithm?",
+        "answers": {
+          "a": "XOR",
+          "b": "RSA",
+          "c": "Diffie-Hellman",
+          "d": "None of the above"
+        },
+        "correctAnswer": "a"
+      },
+      {
+       
+        "question": "What is the restriction of RSA algorithm?",
+        "answers": {
+          "a": "value of P must be less than the value of n",
+          "b": "value of P must be greater than the value of n",
+          "c": "value of P must be equal to the value of n",
+          "d": "Both a and c"
+        },
+        "correctAnswer": "a"
+      },
+      {
+       
+        "question": "The original message, before being transformed, is called?",
+        "answers": {
+          "a": "Encrypted Text",
+          "b": "Decrypted Text",
+          "c": "Cipher Text",
+          "d": "Plain Text"
+        },
+        "correctAnswer": "d"
+      }
+    ]
