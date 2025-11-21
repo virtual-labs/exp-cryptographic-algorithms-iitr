@@ -8,19 +8,32 @@ Cryptography is the study and practice of techniques for secure communication in
 
    The original message, before being transformed, is called plaintext. After the message is transformed, it is called ciphertext. An encryption algorithm transforms the plaintext into ciphertext; a decryption algorithm transforms the ciphertext back into plaintext.
 
-   <center>![Fig. 1: Plain Text And Cipher Text](images/plain_text_and_cipher_text.png)</center>
+   <center>               
+    <img style="mix-blend-mode: darken;" src="images/plain_text_and_cipher_text.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 1 Plain Text And Cipher Text</strong></figcaption>
+   </center>
+   
 
 2. **Cipher**
 
    In cryptography, a cipher (or cypher) is an algorithm for performing encryption or decryption—a series of well-defined steps that can be followed as a procedure.
 
-   <center> ![Fig. 2: Cipher](images/cipher.png)</center>
+<center>               
+    <img style="mix-blend-mode: darken;" src="images/cipher.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 2 Cipher</strong></figcaption>
+   </center>
+   <!-- <center> ![Fig. 2: Cipher](images/cipher.png)</center> -->
 
 3. **Key**
 
    A key is a number (or a set of numbers) that the cipher, as an algorithm, operates on.
 
-  <center> ![Fig. 3: Key](images/key.png)</center>
+<center>               
+    <img style="mix-blend-mode: darken;" src="images/key.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 3 Key</strong></figcaption>
+   </center>
+  
+  <!-- <center> ![Fig. 3: Key](images/key.png)</center> -->
 
 #### Categories of Cryptography
 
@@ -33,7 +46,12 @@ Cryptography is the study and practice of techniques for secure communication in
    - Data Encryption Standard (DES)
    - Advanced Encryption Standard (AES)
 
-   <center>![Fig. 4: Symmetric-key](images/symm.png)</center>
+   <center>               
+    <img style="mix-blend-mode: darken;" src="images/symm.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 4 Symmetric-key</strong></figcaption>
+   </center>
+   
+   <!-- <center>![Fig. 4: Symmetric-key](images/symm.png)</center> -->
 
    1. **XOR**
 
@@ -71,7 +89,12 @@ Cryptography is the study and practice of techniques for secure communication in
    - RSA
    - Diffie-Hellman
 
-   <center>![Fig. 5: Asymmetric-key](images/asymm.png)</center>
+
+ <center>               
+    <img style="mix-blend-mode: darken;" src="images/asymm.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 4 Asymmetric-key</strong></figcaption>
+   </center>
+   <!-- <center>![Fig. 5: Asymmetric-key](images/asymm.png)</center> -->
 
    #### RSA ALGORITHM
 
@@ -103,7 +126,12 @@ Cryptography is the study and practice of techniques for secure communication in
 
    For RSA to work, the value of P must be less than the value of n. If P is a large number, the plaintext needs to be divided into blocks to make P less than n.
 
-   <center>![Fig. 6: RSA Algorithm](images/rsa.png)</center>
+
+<center>               
+    <img style="mix-blend-mode: darken;" src="images/rsa.png" alt="Hubs"><br>     
+      <figcaption><strong>Fig. 4 RSA Algorithm</strong></figcaption>
+   </center>
+   <!-- <center>![Fig. 6: RSA Algorithm](images/rsa.png)</center> -->
 
    #### Advantages of RSA
 
