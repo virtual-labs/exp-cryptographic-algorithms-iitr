@@ -1,4 +1,4 @@
-# Theory
+### Introduction
 
 Cryptography is the study and practice of techniques for secure communication in the presence of third parties called adversaries. It deals with developing and analyzing protocols which prevents malicious third parties from retrieving information being shared between two entities thereby following the various aspects of information security.
 
